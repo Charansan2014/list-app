@@ -1,16 +1,19 @@
 const express = require('express');
-const mysql = require('mysql');
+
 const app = express();
 
 app.use(express.static('public'));
 app.use(express.urlencoded({extended: false}));
 
-const connection = mysql.createConnection({
-  host: 'localhost',
-  user: 'root',
-  password: 'c@Haran!890!@#',
-  database: 'veglist'
+const { Connection } = require('pg');
+
+const connection = new Connection({
+  connectionString: process.env.DATABASE_URL,
+  ssl: {
+    rejectUnauthorized: false
+  }
 });
+
 connection.connect((err) => {
   if (err) {
     console.log('error connecting: ' + err.stack);
