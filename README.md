@@ -6,25 +6,16 @@ This app is just a demo app and to showcase what I learned from my courses, You 
 
 This app uses heroku postgres databases and express framework
 
-```const express = require('express');
-```const { connection } = require('pg');
+```const express = require('express');```
+```const { connection } = require('pg');```
 
-# Header 1
-## Header 2
-### Header 3
+# Course involved in creating this app
 
-- Bulleted
-- List
+-[Progate](progate.com)
 
-1. Numbered
-2. List
+**Courese Name = Web Developement(Node.js)**
 
-**Bold** and _Italic_ and `Code` text
 
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
 ### Jekyll Themes
 
