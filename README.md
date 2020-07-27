@@ -1,15 +1,13 @@
-## Welcome to GitHub Pages
+## Welcome to list-app
 
-You can use the [editor on GitHub](https://github.com/Charansan2014/list-app/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+This app is just a demo app and to showcase what I learned from my courses, You can expect more updates on this app in the future
 
 ### Markdown
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+This app uses heroku postgres databases and express framework
 
-```markdown
-Syntax highlighted code block
+```const express = require('express');
+```const { connection } = require('pg');
 
 # Header 1
 ## Header 2
